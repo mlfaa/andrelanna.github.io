@@ -5,7 +5,7 @@ layout: default
 
 ### UnB - Universidade de Brasilia
 ### FGA - Faculdade do Gama
-### DAS - Desenvolvimento Avançado de Software
+### OO - Orientação por objetos
 ------
 
 Atividade para realizar em sala de aula. 
