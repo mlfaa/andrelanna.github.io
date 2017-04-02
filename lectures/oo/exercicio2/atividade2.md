@@ -25,10 +25,33 @@ Prazo para entrega: 4/4/2017, 23:59:59.
 
 **Questão 2:** Julgue as seguintes frases e explique o motivo delas estarem certas ou erradas. Nos casos em que julgar uma sentença como errada, altere-a de modo a corrigi-la.
 
+
+**Questão 3:**
+
+
+**Questão 4:**
+
+
+**Questão 5:**
+
+
+**Questão 6:**
+
+
+**Questão 7:**
+
+
+**Questão 8:**
+
+
+**Questão 9:**
+
+
+**Questão 10:**
+
+
 ## Referências:
 \[[OPEN ACCESS][eckDavid]\] Eck, David J. Introduction to Programming Using Java, 6th ed. 2011
-
-
 
 
 
