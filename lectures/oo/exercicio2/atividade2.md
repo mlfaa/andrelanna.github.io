@@ -23,8 +23,17 @@ Prazo para entrega: 4/4/2017, 23:59:59.
 * retenção de estado
 
 
-**Questão 2:** Julgue as seguintes frases e explique o motivo delas estarem certas ou erradas. Nos casos em que julgar uma sentença como errada, altere-a de modo a corrigi-la.
+**Questão 2:** Julgue as seguintes frases como verdadeiras ou falsas e explique o motivo delas estarem certas ou erradas. Nos casos em que julgar uma sentença como errada, altere-a de modo a corrigi-la.
 
+a) Dois objetos instanciados através do método construtor padrão terão o mesmo estado e, portanto, suas referências serão iguais. 
+
+b) Uma classe pode ter apenas um método construtor alternativo para instanciação de seus objetos. 
+
+c) Retenção de estados é uma propriedade do paradigma OO que permite aos objetos manterem os valores de seus atributos até o momento em que um estímulo externo ao objeto solicite uma alteração no valor de algum atributo.
+
+d) Em Java, o operador . (ponto) serve para acessar somente os métodos de um objeto. 
+
+e) Métodos destrutores são aqueles métodos que são chamados explicitamente pelo algoritmo para destruir objetos e liberar os espaços que eles ocupam em memória. Em Java métodos destrutores são implementos com o nome **finalize()** e definidos em cada classe.
 
 **Questão 3:**
 
