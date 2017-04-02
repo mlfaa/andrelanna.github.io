@@ -42,21 +42,31 @@ e) Métodos destrutores são aqueles métodos que são chamados explicitamente p
 
 Drones civis vendidos atualmente possuem, em sua maior parte, as seguintes características: 
 
-| Característica   | Valores (intervalo)      |
-|:-----------------|:-------------------------|
-| N. de hélices    | 4, 6 ou 8                |
-| Câmera           | SD, HD, UHD ou s-UHD     |
-| Vel. vert. max.  | de 10 a 16 m/s           |
-| Vel. hor. max.   | de 10 a 16 m/s           |
-| Autonomia bateria| de 15 a 20 minutos de voo|
-| Distância máxima | de 1 a 2 kilometros      |
+| Característica   | Valores (intervalo)         |
+|:-----------------|:----------------------------|
+| N. de hélices    | 4, 6 ou 8                   |
+| Câmera           | SD, HD, UHD ou s-UHD        |
+| Vel. vert. max.  | de 10 a 16 m/s              |
+| Vel. hor. max.   | de 10 a 16 m/s              |
+| Autonomia bateria| de 5 a 30 minutos de voo    |
+| Distância máxima | de 50 metros a 20 kilometros|
 
 Além dessas características, drones possuem as seguintes funções básicas: a) aumentar/diminuir velocidade vertical, b) aumentar/diminuir velocidade horizontal, c) iniciar/interromper gravação da câmera e d) diminuir velocidades máxima (horizontal e vertical) em 50% sempre que a autonomia da bateria for menor do que 5 minutos. 
 
-Dado esse cenário, pede-se aos alunos que representem (inicialmente) as características e comportamentos de um drone através de uma classe e, posteriormente, apresente a implementação dessa classe na linguagem Java. 
+Dado esse cenário, pede-se aos alunos que representem (inicialmente) as características e comportamentos de um drone através de um diagrama de classes e, posteriormente, apresente a implementação dessa classe na linguagem Java. 
 
-**Questão 4:**
+**Questão 4:** Considerando a classe definida e implementada na questão 5, pede-se que os seguintes objetos sejam criados a partir do programa principal: 
 
+| Característica   | drone1         | drone2         | drone3            | drone3            |
+|:-----------------|:---------------|:---------------|:------------------|:------------------|
+| Marca            | Hubsan         | Hubsan         | DJI               | DJI               |
+| Modelo           | X4 mini        | H501S X4 FPV   | Mavic Pro         | Mavic Pro         |
+| N. de hélices    | 4              | 4              | 4                 | 4                 |
+| Câmera           | SD             | HD             | SUHD              | SUHD              |
+| Vel. vert. max.  | 10 m/s         | 12 m/s         | 16 m/s            | 16 m/s            |
+| Vel. hor. max.   | 10 m/s         | 12 m/s         | 16 m/s            | 16 m/s            |
+| Autonomia bateria| 7 minutos      | 20 minutos     | 27 minutos        | 27 minutos        |
+| Distância máxima | até 150 metros | até 1 kilometro| até 13 kilometros | até 13 kilometros |
 
 **Questão 5:**
 
