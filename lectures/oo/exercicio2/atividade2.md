@@ -60,12 +60,12 @@ Dado esse cenário, pede-se aos alunos que representem (inicialmente) as caracte
 | Característica   | drone1         | drone2         | drone3            | drone3            |
 |:-----------------|:---------------|:---------------|:------------------|:------------------|
 | Marca            | Hubsan         | Hubsan         | DJI               | DJI               |
-| Modelo           | X4 mini        | H501S X4 FPV   | Mavic Pro         | Mavic Pro         |
-| N. de hélices    | 4              | 4              | 4                 | 4                 |
-| Câmera           | SD             | HD             | SUHD              | SUHD              |
+| Modelo           | X4 mini        | H501S X4 FPV   | Mavic Pro         | Spreading Wings   |
+| N. de hélices    | 4              | 4              | 4                 | 8                 |
+| Câmera           | SD             | HD             | UHD               | SUHD              |
 | Vel. vert. max.  | 10 m/s         | 12 m/s         | 16 m/s            | 16 m/s            |
 | Vel. hor. max.   | 10 m/s         | 12 m/s         | 16 m/s            | 16 m/s            |
-| Autonomia bateria| 7 minutos      | 20 minutos     | 27 minutos        | 27 minutos        |
+| Autonomia bateria| 7 minutos      | 20 minutos     | 27 minutos        | 15 minutos        |
 | Distância máxima | até 150 metros | até 1 kilometro| até 13 kilometros | até 13 kilometros |
 
 **Questão 5:**
