@@ -55,9 +55,10 @@ Além dessas características, drones possuem as seguintes funções básicas: a
 
 Dado esse cenário, pede-se aos alunos que representem (inicialmente) as características e comportamentos de um drone através de um diagrama de classes e, posteriormente, apresente a implementação dessa classe na linguagem Java. 
 
+
 **Questão 4:** Considerando a classe definida e implementada na questão 5, pede-se que os seguintes objetos sejam criados a partir do programa principal: 
 
-| Característica   | drone1         | drone2         | drone3            | drone3            |
+| Característica   | drone1         | drone2         | drone3            | drone4            |
 |:-----------------|:---------------|:---------------|:------------------|:------------------|
 | Marca            | Hubsan         | Hubsan         | DJI               | DJI               |
 | Modelo           | X4 mini        | H501S X4 FPV   | Mavic Pro         | Spreading Wings   |
@@ -68,7 +69,10 @@ Dado esse cenário, pede-se aos alunos que representem (inicialmente) as caracte
 | Autonomia bateria| 7 minutos      | 20 minutos     | 27 minutos        | 15 minutos        |
 | Distância máxima | até 150 metros | até 1 kilometro| até 13 kilometros | até 13 kilometros |
 
-**Questão 5:**
+
+**Questão 5:** Ainda levando em consideração o cenário descrito nas questões 3 e 4, é necessário fazer com que os comandos realizados pelo usuário no controle remoto sejam enviados ao drone. Para isso, é necessário que o controle remoto estabeleça uma conexão com o drone. A partir desse momento é possível enviar os seguintes comandos ao drone: a) aumentar ou diminuir a velocidade vertical em passos de 1 m/s; b) aumentar ou diminuir a velocidade horizontal em passos de 1m/s e, c) ativar ou desativar a câmera. É importante ressaltar que um controle remoto só pode estar conectado a um drone apenas. Por fim, controles remotos possuem baterias com autonomia entre 60 e 90 minutos e alcance entre 20 metros e 20 kilometros.  
+
+Desse modo, pede-se nessa questão que seja modelada e implementada em Java a classe que representa as características e o comportamento de um controle remoto, de modo que o drone possa ser comandado a partir do comandos enviados pelo controle remoto.
 
 
 **Questão 6:**
@@ -92,7 +96,7 @@ Dado esse cenário, pede-se aos alunos que representem (inicialmente) as caracte
 
 
 ---
-*Última modificação: 2 de abril de 2017, 12:57.*
+*Última modificação: 3 de abril de 2017, 9:27.*
 
 
 
