@@ -118,7 +118,7 @@ a) As referências a1 e a2 para objetos de *ClasseA* são iguais?
 
 b) Qual o estado de cada dos objetos de cada referência? 
 
-c) O que será impresso pela função *main* da classe *Principal* se a linha número *XX* for igual a: 
+c) O que será impresso pela função *main* da classe *Principal* se a linha número *11* for igual a: 
 {% highlight java%}
 System.out.println(q1 == q2);
 System.out.println(q1.a1 == q2.a1);
@@ -147,7 +147,7 @@ System.out.println(q3 == q2);
 
 
 ---
-*Última modificação: 3 de abril de 2017, 18:00.*
+*Última modificação: 3 de abril de 2017, 22:52.*
 
 
 
