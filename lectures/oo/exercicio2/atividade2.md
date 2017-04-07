@@ -278,8 +278,34 @@ public class Principal {
 	}
 }
 {% endhighlight %}
-**Questão 10:**
+**Questão 10:** sabe-se que um curso em é formado por um conjunto de disciplinas, para as quais são definidas as seguintes características: 
 
+* um código da disciplina;
+* um nome;
+* uma carga horária, e
+* um departamento responsável por lecionar tal disciplina.
+
+Sabe-se ainda que para cada disciplina são criadas diversas turmas. Cada turma é descrita através das seguintes características:
+
+* um código da turma; 
+* um número total de vagas; 
+* um número de vagas livres; 
+* um número de vagas ocupadas, e
+* dias/horarios em que ela ocorre.
+
+Além disso, é necessário que os alunos se matriculem nessas turmas. Tal procedimento consiste em associar os alunos em uma turma específica (caso haja vagas) e aumentar o número de vagas ocupadas. 
+
+Considerando o contexto formado pelas classes **Aluno** e **Curso** (vide implementação na questão 7) e a descrição acima, pede-se: 
+
+a) em Java, crie uma classe que seja capaz de representar as características e o comportamento de uma turma.
+
+b) Crie as seguintes turmas: 
+   * turma 1 de Orientação por objetos, com 46 vagas livres, que ocorre todas as 4as e 6as feiras, das 12:00 às 16:00 horas;
+   * turma 1 de Desenvolvimento Avançado de software, com 30 vagas livres, que ocorre todas as 4as. e 6as. feiras, das 16:00 às 18:00 horas.
+
+c) associe ambas turmas recem-criadas ao curso de Engenharia de Software,
+
+d) matricule Andre e Maria na turma de orientação por objetos, e Junior na turma de desenvolvimento avançado de software.
 
 ## Referências:
 \[[OPEN ACCESS][eckDavid]\] Eck, David J. Introduction to Programming Using Java, 6th ed. 2011
