@@ -22,6 +22,7 @@ Prazo para entrega: ~~4/4/2017~~ 10/04/2017, 23:59:59.
 * estado de um objeto
 * retenção de estado
 
+Classe é a estrutura definida pelo programador, contendo atributos e métodos (comportamento) comuns a um conjunto de objetos.
 
 **Questão 2:** Julgue as seguintes frases como verdadeiras ou falsas e explique o motivo delas estarem certas ou erradas. Nos casos em que julgar uma sentença como errada, altere-a de modo a corrigi-la.
 
@@ -130,6 +131,98 @@ System.out.println(q3 == q2);
 
 
 **Questão 7:**
+Seja o seguinte código em Java. Apresente o que será impresso ao final da execução do método **main** definido na classe **Principal**.
+
+{% highlight java %}
+package questao7;
+public class Principal {
+  public static void main(String[] args) {
+    Curso c1, c2;
+    Aluno a1, a2, a3;
+    c1 = new Curso(1, "Engenharia de Software", 240);
+    c2 = new Curso(2, "Engenharia Eletrônica", 257);
+    
+    a1 = new Aluno("Andre", c1, 13, 23, 02, 1983);
+    a2 = new Aluno("Maria", c2, 5, 27, 5, 1994);
+    a3 = new Aluno("Junior", c1, 70, 16, 11, 1995);
+    
+    System.out.println(a1.obterDetalhes());
+    System.out.println(a2.obterDetalhes());
+    System.out.println(a3.obterDetalhes());
+    a3 = a2;
+    System.out.println(a1 == a2);
+    System.out.println(a1 == a3);
+    System.out.println(a2 == a3);
+  }
+}
+{% endhighlight %}
+
+
+{% highlight java %}
+package questao7;
+public class Aluno {
+  String nome; 
+  Curso curso;
+  int matricula;
+  int diaNascimento, 
+      mesNascimento, 
+      anoNascimento;
+  
+  public Aluno(String nom, Curso cur, int mat, int dNasc, int mNasc, int aNasc) {
+    nome = nom;
+    curso = cur;
+    matricula = mat;
+    diaNascimento = dNasc; 
+    mesNascimento = mNasc;
+    anoNascimento = aNasc;
+  }
+  
+  public String obterDetalhes() {
+    String resposta = "";
+    resposta += "Nome: " + nome + '\n';
+    resposta += "Curso: " + curso + '\n';
+    resposta += "Data de nascimento: " + diaNascimento + '/' + 
+                                     mesNascimento + '/' + 
+                                     anoNascimento;
+    return resposta; 
+  }
+  
+  protected void finalize() {
+    System.out.println("Esse objeto ALUNO vai ser destruido.");
+    System.out.println("Detalhes do objeto: " + '\n');
+    System.out.println(obterDetalhes());
+  }
+}
+{% endhighlight  %}
+
+{% highlight java %}
+package questao7;
+public class Curso {
+  int codigo;
+  String nomeCurso; 
+  int cargaHoraria;
+  
+  Curso (int cod, String nome, int ch) {
+    codigo = cod;
+    nomeCurso = nome; 
+    cargaHoraria = ch;
+  }
+  
+  public String obterDetalhes() {
+    String resposta = "";
+    resposta += "Nome do curso: " + nomeCurso + '\n';
+    resposta += "Codigo: " + codigo + '\n';
+    resposta += "Carga horaria: " + cargaHoraria;
+    return resposta; 
+  }
+  
+  protected void finalize() {
+    System.out.println("Esse objeto CURSO vai ser destruido.");
+    System.out.println("Detalhes do objeto: " + '\n');
+    System.out.println(obterDetalhes());
+  }
+}
+{% endhighlight  %}
 
 
 **Questão 8:**
@@ -147,7 +240,7 @@ System.out.println(q3 == q2);
 
 
 ---
-*Última modificação: 3 de abril de 2017, 22:52.*
+*Última modificação: 7 de abril de 2017, 05:12.*
 
 
 
