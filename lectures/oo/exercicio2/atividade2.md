@@ -225,7 +225,36 @@ public class Curso {
 {% endhighlight  %}
 
 
-**Questão 8:**
+**Questão 8:** Considerando as classes **Aluno** e **Curso** definidas na questão 7, o que será impresso quando o *garbagge collector* de Java executar momentos antes do método **main()** da classe abaixo terminar sua execução?
+
+{% highlight java %}
+package questao8;
+public class Principal {
+  public static void main(String[] args) {
+    Curso c1, c2;
+    Aluno a1, a2, a3;
+    
+    c1 = new Curso(1, "Engenharia de Software", 240);
+    c2 = new Curso(2, "Engenharia Eletrônica", 257);
+    
+    a1 = new Aluno("Andre", c1, 13, 23, 02, 1983);
+    a2 = new Aluno("Maria", c2, 5, 27, 5, 1994);
+    a3 = new Aluno("Junior", c1, 70, 16, 11, 1995);
+    
+    a3 = a2; 
+    a2 = null;
+    c2 = c1; 
+    c1 = null;
+    c1 = a3.curso;
+    a3 = a1;
+    a1 = nul;
+    
+    //---> GARBAGGE COLLECTOR executa nesse instante
+  }
+}
+{% endhighlight %}
+
+
 
 
 **Questão 9:**
