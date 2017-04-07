@@ -255,11 +255,29 @@ public class Principal {
 {% endhighlight %}
 
 
+**Questão 9:** as cinco instruções listadas abaixo estão definidas no método **main()** da classe **Principal** e apresentam erros em suas sintaxes. Apresente quais são os erros, justifique-os e altere as instruções de modo a consertá-los. Considere os códigos das classes **Aluno** e **Turma** como sendo os códigos apresentados na questão 7. 
 
-
-**Questão 9:**
-
-
+{% highlight java %}
+package questao9;
+public class Principal {
+	public static void main(String[] args) {
+		Curso c1, c2;
+		Aluno a1, a2, a3;
+		
+		c2 = new Curso(2, "Engenharia Eletrônica", 257);
+		
+		a1 = new Aluno("Andre", c1, 13, 23, 02, 1983);
+		a2 = new Aluno("Maria", c2, 5, 27, 5, 1994);
+		
+		Curso.obterDetalhes();
+		c2.matricula = 20; 
+		Curso.nome = "Ciência da computação";
+		c1.codigo = 21;
+		Aluno.obterDetalhes();
+		a3.cargaHoraria() = 220;
+	}
+}
+{% endhighlight %}
 **Questão 10:**
 
 
