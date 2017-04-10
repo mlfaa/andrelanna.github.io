@@ -25,9 +25,28 @@ No canto superior direito clique no ícone **Fork** para criar uma versão do re
 
 ---
 
+### Respondendo as questões do exercícios. 
+
+Para responder as questões dos exercícios, os alunos deverão editar o arquivo **/lectures/oo/exercicio2/atividade2.md**. O conteúdo desse arquivo está descrito através da linguagem [Markdown][markdown], cuja proposta é facilitar a geração de conteúdo estático (arquivos HTML) ao prover um conjunto de instruções simplificado. Um resumo das instruções MD pode ser encontrado [aqui][markdownCheatsheet].
+
+Portanto para cada questão a ser respondido, a dupla deverá realizar os seguintes passos (que serão detalhados em seguida):
+
+1) alterar o arquivo **atividade2.md** de modo a incluir as respostas das questões.
+
+2) adicionar as mudanças em um *commit* e enviá-los ao github.
+
+3) fazer um *pull-request* para o repositório original. 
+
+Esses três passos acima deverão ser realizados para cada questão a ser respondida pelas duplas. 
+
+
+A seguir os passos acima serão descritos detalhadamente.
+
 
 [repositorioOriginal]: https://github.com/andrelanna/andrelanna.github.io
 [github]: https://github.com
 
 [buscaRepositorio]: buscaRepositorio.png
 [conteudoRepositorio]: conteudoRepositorio.png
+[markdown]: https://daringfireball.net/projects/markdown/
+[markdownCheatsheet]: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet 
