@@ -84,8 +84,29 @@ O resultado da execução desse comando deve mostrar que o arquivo faz parte do 
 
 ![arquivoAdicionado][arquivoAdicionado]
 
+Uma vez que os arquivos a serem submetidos já estão adicionados, as alterações devem ser "empacotadas" em um *commit*. Para cada commit é necessário, ao menos, adicionar uma mensagem informando o que o commit contem. A instrução para realizar tal tarefa é 
 
+{% highlight PowerShell %}
+git commit -m "mensagem"
+{% endhighlight %}
 
+Para facilitar a identificação dos commits, solicito que os alunos informem na mensagem do commit qual a questão que está sendo submetida. Exemplo: 
+
+{% highlight PowerShell%}
+git commit -m "Questao 1."
+...
+git commit -m "Questao 2."
+...
+git commit -m "Questao 3."
+{% endhighlight%}
+
+Depois do commit ter sido criado pelas instruções acima é necessário enviá-lo ao **seu** repositório no GitHub. Esse procedimento também é chamado de **push**. Para isso, execute a seguinte instrução na linha de comando de seu SO: 
+
+{% highlight PowerShell %}
+git push
+{% end highlight %}
+
+O resultado da execução desse comando será similar ao apresentado pela figura abaixo:
 
 
 
