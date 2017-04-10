@@ -104,11 +104,11 @@ Depois do commit ter sido criado pelas instruções acima é necessário enviá-
 
 {% highlight PowerShell %}
 git push
-{% end highlight %}
+{% endhighlight %}
 
 O resultado da execução desse comando será similar ao apresentado pela figura abaixo:
 
-
+![resultadoCommit][resultadoCommit]
 
 
 
@@ -123,3 +123,4 @@ O resultado da execução desse comando será similar ao apresentado pela figura
 [markdownCheatsheet]: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet 
 [arquivoModificado]: arquivoModificado.png
 [arquivoAdicionado]: arquivoAdicionado.png
+[resultadoCommit]: resultadoCommit.png
