@@ -37,10 +37,60 @@ Portanto para cada questão a ser respondido, a dupla deverá realizar os seguin
 
 3) fazer um *pull-request* para o repositório original. 
 
-Esses três passos acima deverão ser realizados para cada questão a ser respondida pelas duplas. 
+Para permitir a identificação da dupla, pede-se que a cada questão os alunos sejam identificados da seguinte forma a cada commit: 
+
+*matricula aluno 1 - nome completo do aluno 1*
+
+*matricula aluno 2 - nome completo do aluno 2*
 
 
-A seguir os passos acima serão descritos detalhadamente.
+A seguir os passos 1, 2, e 3 listados acima serão descritos detalhadamente.
+
+**Passo 1**
+
+Utilizando o editor de sua preferência, altere o arquivo *atividade2.md* de modo a adicionar a resposta após o enunciado da questão. 
+
+Salve o arquivo texto.
+
+
+**Passo 2**
+
+
+Na linha de comando de seu sistema operacional (prompt de comando ou PowerShell em Windows, Terminal em Linux ou MacOS), acesse a pasta em que se encontra o arquivo *atividade2.md*. 
+
+Para ver as alterações que foram realizadas no diretório, digite o seguinte comando: 
+
+{% highlight PowerShell %}
+git status
+{% endhighlight %}
+
+Dentre a lista dos arquivos não-rastreados (*untracked files*) ou modificados deverá constar o arquivo *atividade2.md*, conforme mostra a imagem abaixo: 
+
+![arquivoModificado][arquivoModificado]
+
+É necessário que você adicione-o ao conjunto de mudanças (que posteriormente será enviado ao GitHub). Para adicioná-lo, execute o seguinte comando na linha de comando de seu SO.
+
+{% highlight PowerShell %}
+git add atividade2.md
+{% endhighlight%}
+
+Certifique-se de que o arquivo foi adicionado ao conjunto de mudanças. Para isso, execute novamente o comando:
+
+{% highlight PowerShell %}
+git status
+{% endhighlight %}
+
+O resultado da execução desse comando deve mostrar que o arquivo faz parte do conjunto de mudanças, conforme demonstra a figura abaixo: 
+
+![arquivoAdicionado][arquivoAdicionado]
+
+
+
+
+
+
+
+
 
 
 [repositorioOriginal]: https://github.com/andrelanna/andrelanna.github.io
@@ -50,3 +100,5 @@ A seguir os passos acima serão descritos detalhadamente.
 [conteudoRepositorio]: conteudoRepositorio.png
 [markdown]: https://daringfireball.net/projects/markdown/
 [markdownCheatsheet]: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet 
+[arquivoModificado]: arquivoModificado.png
+[arquivoAdicionado]: arquivoAdicionado.png
