@@ -46,14 +46,14 @@ Para permitir a identificação da dupla, pede-se que a cada questão os alunos 
 
 A seguir os passos 1, 2, e 3 listados acima serão descritos detalhadamente.
 
-**Passo 1**
+**Passo 1 - Alterar o arquivo atividade2.md**
 
 Utilizando o editor de sua preferência, altere o arquivo *atividade2.md* de modo a adicionar a resposta após o enunciado da questão. 
 
 Salve o arquivo texto.
 
 
-**Passo 2**
+**Passo 2 - Adicionar as alterações em um commit e enviar ao repositório no Github**
 
 
 Na linha de comando de seu sistema operacional (prompt de comando ou PowerShell em Windows, Terminal em Linux ou MacOS), acesse a pasta em que se encontra o arquivo *atividade2.md*. 
@@ -109,6 +109,9 @@ git push
 O resultado da execução desse comando será similar ao apresentado pela figura abaixo:
 
 ![resultadoCommit][resultadoCommit]
+
+
+**Passo 3 - Solicitar a adição de seus commits ao repositório de origem**
 
 
 
