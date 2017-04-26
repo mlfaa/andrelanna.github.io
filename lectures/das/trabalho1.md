@@ -2,7 +2,7 @@
 title: Trabalho em grupo 1
 layout: default 
 ---
-{% assign deadline = "23:59:59hs de 30 de abril de 2017" %}
+{% assign deadline = "23:59:59hs de 3 de maio de 2017" %}
 
 **UnB - Universidade de Brasilia**
 
