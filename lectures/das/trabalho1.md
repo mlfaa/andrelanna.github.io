@@ -39,7 +39,7 @@ abaixo:
 |     1 | Composição de métodos                 | V0 (rep. original)| V1              |
 |     2 | Movendo características entre objetos | V1                | V2              |
 |     3 | Organizando dados                     | V2                | V3              |
-|     4 | *A ser definido ainda*                | V3                | V4              |
+|     4 | Simplificando expressoes condicionais | V3                | V4              |
 
 As tags de cada versão do repositório deverão ser nomeadas conforme os valores
 da coluna "Versão de saída" apresentados na tabela acima.
@@ -91,4 +91,4 @@ instantes finais das aulas.
 ----
 *Última atualização: 13 de abril de 2017*
 
-[repoOriginal]: [https://github.com/andrelanna/reana-spl]
+[repoOriginal]: https://github.com/andrelanna/reana-spl
