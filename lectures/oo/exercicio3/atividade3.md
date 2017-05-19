@@ -15,9 +15,7 @@ WindowBuilder **não** deve ser utilizado.
 
 
 **Exercício 1:** Crie uma interface gráfica para cálculo de valores presente, futuro, juros e taxa de juros de acordo com a seguinte fórmula: 
-{% raw %}
 $$V_{F} = V_{A} \times (1 + i)^{n}$$, em que 
-{% endraw %}
 * $$V_{F}$$ representa o valor futuro de uma aplicação,
 * $$V_{A}$$ representa o valor atual (no momento) da aplicação, 
 * $$i$$ é a taxa de juros e 
