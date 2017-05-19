@@ -9,7 +9,7 @@ layout: default
 ------
 
 Atividade extra-classe **individual** em substituição à aula de 19/05/2017.  
-**Data de entrega:** 19/05/2017, 23:59:59.  
+**Data de entrega:** 22/05/2017, 23:59:59.  
 Entrega via GitHub.  
 WindowBuilder **não** deve ser utilizado. 
 
